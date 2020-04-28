@@ -1,0 +1,8 @@
+Payment Gateway using Payu:
+
+
+	https://medium.com/@MicroPyramid/django-payu-payment-gateway-integration-81b8d03b38ae
+
+	https://www.pythoncircle.com/post/222/how-to-integrate-payumoney-payment-gateway-in-django/
+
+	https://github.com/Chitrank-Dixit/PayU_Integration
