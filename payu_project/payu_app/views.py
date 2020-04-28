@@ -32,7 +32,7 @@ def checkout(request):
             initial.update({'key': settings.PAYU_INFO['merchant_key'],
                             'hash': payu_hash,
                             'surl': request.build_absolute_uri(reverse('order.success')),
-                            'furl': request.build_absolute_uri(reverse('order.success')),
+                            'furl': request.build_absolute_uri(reverse('order.failure')),
                             'curl': request.build_absolute_uri(reverse('order.cancel'))})
             # Once you have all the information that you need to submit to payu
             # create a payu_form, validate it and render response using

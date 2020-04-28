@@ -126,5 +126,5 @@ STATIC_URL = '/static/'
 PAYU_INFO = {'merchant_key': 'aAA1ICy8',
              'merchant_salt': 'fV5ZRyYDMf',
              # for production environment use 'https://secure.payu.in/_payment'
-             'payment_url': 'https://test.payu.in/_payment/',
+             'payment_url': 'https://sandboxsecure.payu.in/',
 }
